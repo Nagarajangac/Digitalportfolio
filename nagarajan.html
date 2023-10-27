@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+        }
+
+        .img_profile{
+            border-radius: 50%;
+            width: 200px;
+            height: 250px;
+        }
+
+        header {
+            text-align: center;
+            background-color:#333;
+            color: white;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .project {
+            text-align: center;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+    <title>Nagarajan</title>
+</head>
+<body>
+    <header>
+        <img class="img_profile" src="C:\Users\yuvan\Desktop\nagarajan\Nagaraj.jpeg">
+        <h1>Nagarajan</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Biodata">Biodata</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello,I'm NAGARAJAN. M S,20 years old from Tamilnadu,currently purusing my 3rd year of B.Sc Computer Science.</p>
+    </section>
+
+    <section id="Biodata">
+        <h2>Biodata</h2>
+Name:M S Nagarajan<br>
+Father's name:Manoharan<br>
+Mothers's name:Selvi<br>
+DOB:06/08/2003<br>
+Address:Karur<br>
+Mobile no:6374638709<br>
+Religion:Hindu<br>
+Nationality:Indian<br>
+Gender:Male<br>
+Qualification:B.sc<br>
+        <p></p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="C:\Users\yuvan\Desktop\nagarajan\project1.jpeg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Its sample sign in page .</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+    
+    <section id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+    
+   <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Karur,TN</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 6374638709</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: nagarajmano2003@gmail.com</p>
+    </div><br>
+        <p>
+</p>
+    </section>
+    
+    <footer>
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://instagram.com/romantic_rascal_68?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img class="img-contact" src="https://cdn1.iconfinder.com/data/icons/social-circle-3/32/instagram_circle-64.png" width="30" height="30"></a> 
+    <a href="https://www.facebook.com/profile.php?id=100074713652889&mibextid=9R9pXO" target="_blank"> &nbsp;&nbsp;&nbsp;<img class="img-contact" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-facebook_-64.png" width="30" height="30"></a>
+
+
+
+
+        <p>&copy; 2023 Nagarajan</p>
+    </footer>
+
+    <script>
+        // JavaScript code
+        // Function to add a smooth scroll effect to navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
